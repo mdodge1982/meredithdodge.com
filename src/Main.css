@@ -1,0 +1,16 @@
+.Main {
+  max-width: 1000px;
+  background: #fff;
+  padding: 8em 4em;
+}
+
+@media print {
+  .Main {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Main {
+    padding: 4em 2em;
+  }
+}
